@@ -13,7 +13,8 @@ html {
 }
 
 body {
-    margin: 0;
+    max-width: 1180px;
+    margin: auto;
     background-color: #f8f8f8;
 }
 
@@ -38,6 +39,8 @@ body {
 .swiper-wrapper {
     padding: 0 35px;
     margin-bottom: 35px;
+    margin-left: 11px;
+    
 }
 
 .swiper-slide:nth-child(n + 9) {
@@ -86,6 +89,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
+        justify-content: space-between;
     }
     .swiper-slide {
         width: 24%;
@@ -105,16 +109,15 @@ body {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
-        padding: 10px;
+        padding: 5px;
     }
     .swiper-slide {
-        width: 33.3333%;
-        margin-bottom: 1.22222%;
-        padding: 2%;
+        width: 33.333%;
+        margin-bottom: 10px;
     }
    .show-more__button {
         display: flex;
         margin-left: 25px;
     }
-    
 }
+
